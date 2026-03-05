@@ -1,0 +1,108 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:system-ui, sans-serif;
+background:#0f172a;
+color:white;
+padding:30px;
+}
+
+/* header */
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:30px;
+}
+
+.header h1{
+font-size:28px;
+font-weight:600;
+}
+
+/* input area */
+
+.task-input{
+display:flex;
+gap:10px;
+}
+
+.task-input input{
+padding:10px;
+border:none;
+border-radius:6px;
+outline:none;
+width:220px;
+}
+
+.task-input button{
+padding:10px 16px;
+border:none;
+border-radius:6px;
+background:#3b82f6;
+color:white;
+cursor:pointer;
+}
+
+.task-input button:hover{
+background:#2563eb;
+}
+
+/* board layout */
+
+.board{
+display:flex;
+gap:20px;
+}
+
+/* column */
+
+.column{
+flex:1;
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+min-height:400px;
+}
+
+.column h2{
+margin-bottom:15px;
+font-size:18px;
+}
+
+/* task container */
+
+.task-container{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+/* task card */
+
+.task{
+background:#334155;
+padding:12px;
+border-radius:8px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.task button{
+border:none;
+background:#475569;
+color:white;
+padding:6px 10px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.task button:hover{
+background:#64748b;
+}
