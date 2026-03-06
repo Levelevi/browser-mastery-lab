@@ -97,7 +97,7 @@ align-items:center;
 .task button{
 border:none;
 background:#475569;
-color:white;
+color:rgb(104, 64, 64);
 padding:6px 10px;
 border-radius:6px;
 cursor:pointer;
@@ -105,4 +105,55 @@ cursor:pointer;
 
 .task button:hover{
 background:#64748b;
+}
+.task-card{
+    list-style:none;
+    background:rgb(35, 25, 25);
+    padding:14px;
+    margin-bottom:12px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    font-family:sans-serif;
+}
+
+.task-text{
+    font-size:15px;
+    font-weight:500;
+}
+
+.move-btn{
+    border:none;
+    background:#4f46e5;
+    color:white;
+    padding:6px 12px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:12px;
+}
+
+.move-btn:hover{
+    background:#4338ca;
+}
+.delete-btn{
+    border:none;
+    background:#ef4444;
+    color:white;
+    padding:6px 10px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:12px;
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+}
+
+.task-actions{
+    display:flex;
+    gap:6px;
 }
