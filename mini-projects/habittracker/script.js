@@ -14,7 +14,8 @@ function thisapp(event){
         const id=Number(div.dataset.id);
        done(id);
     }
-}
+    
+};
 function done(id){
     console.log(id);
     console.log("the fucntion is done running now");
