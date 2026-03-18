@@ -60,7 +60,7 @@ if(target.matches("#startBtn"))renderGame();
 }
 function renderGame(){
 console.log("yoo");
-
+allquestions.innerHTML="";
 startgamebtn.classList.add("hideBtn")
 const thisGame=document.createElement("div");
 thisGame.classList.add("thisGameContainer");
