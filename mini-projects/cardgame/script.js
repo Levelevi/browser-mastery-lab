@@ -38,12 +38,13 @@ function gameScreen() {
 }
 
 
+
 function cardGame(event){
     const target=event.target;
     if(target.matches(".start-btn"))gameScreen();
     if(target.closest(".card")){
       const data=target.dataset.number;
-      
+      showCard(data);
     }
 }
 
